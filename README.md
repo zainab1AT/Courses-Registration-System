@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Courses-Registration-System
+Courses Registration System by React js and PHP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Screenshot (154)](https://github.com/zainab1AT/Courses-Registration-System/assets/120052828/f3ff222e-38c9-4db4-9f66-560c7b85c0fa)
 
-## Available Scripts
 
-In the project directory, you can run:
+## Overview
+This project is a Courses Registration System developed using React.js for the frontend and PHP for the backend. The system allows users to perform various operations such as adding, deleting, confirming, and editing courses. It provides real-time updates and interacts with a backend server to store and retrieve course data.
 
-### `npm start`
+## Features
+* Add Course: Users can add new courses to the system.
+* Delete Course: Courses can be deleted from the system.
+* Confirm Course: Users can confirm courses, indicating their acceptance.
+* Edit Course: Course details such as name can be edited.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
+* React.js: Used for building the frontend interface.
+* PHP: Used for handling backend operations and interacting with the database.
+* Material-UI: Used for styling and components in the frontend.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
+To run this project locally, follow these steps:
 
-### `npm test`
+* Clone this repository to your local machine.
+```
+https://github.com/zainab1AT/Courses-Registration-System.git 
+```
+* Ensure you have Node.js and npm installed.
+* Install dependencies by running npm install in the project directory.
+* Set up your backend server environment with PHP and a MySQL database.
+4- Configure the backend API endpoints in the React application (App.js) to match your server setup.
+5- Run the frontend application using npm start.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
